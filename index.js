@@ -30,6 +30,10 @@ console.log('✅ Feedback routes connected.');
 const moodRoutes = require('./routes/moodRoutes');
 app.use('/mood', moodRoutes);
 
+// ✅ ✅ ✅ ADD THIS to fix the 404 error
+const authRoutes = require('./routes/authRoutes');
+app.use('/auth', authRoutes);
+
 // ✅ Root test
 app.get('/', (req, res) => {
   res.send('🎯 Welcome to Mental Wellness Hub API');
