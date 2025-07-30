@@ -20,18 +20,31 @@ This is the backend server of the **Mental Wellness Hub** project. It provides R
 ## 📁 Folder Structure
 
 mental-wellness-backend/
+
 ├── models/
+
 │ ├── User.js
+
 │ ├── Mood.js
+
 │ ├── Journal.js
+
 │ ├── Feedback.js
+
 ├── routes/
+
 │ ├── authRoutes.js
+
 │ ├── moodRoutes.js
+
 │ ├── journalRoutes.js
+
 │ ├── feedbackRoutes.js
+
 ├── .env
+
 ├── index.js
+
 ├── package.json
 
 
